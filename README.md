@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 11 (14/10/2026): medição com vários pontos
+
+- **📏 Misura / Medir** agora aceita vários pontos: toque em A, B, C, D… Cada trecho mostra o comprimento e os pontos ganham letras.
+- Para fechar a forma, toque de novo no ponto A ou em **Chiudi misura / Fechar medição**.
+- Com a forma fechada aparecem: área em m², comprimento × largura (comprimento medido ao longo do trecho A→B, largura na perpendicular) e perímetro.
+- **Usa come contorno del tetto / Usar como contorno do telhado** transforma a forma medida no telhado; depois basta ③ Distribuir painéis.
+- As medidas são estimativas e dependem da escala calibrada; confira no local.
+
 ## Versão 10 (14/10/2026): botões de zoom
 
 - Três botões no canto superior direito do desenho: **+** (aproximar), **−** (afastar) e **⤢** (ajustar a vista para ver o telhado inteiro).
