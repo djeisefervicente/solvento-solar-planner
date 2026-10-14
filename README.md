@@ -135,6 +135,16 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 12 (14/10/2026): vista 3D
+
+- Botão **🧊 Vista 3D** acima do desenho: mostra o prédio, o telhado inclinado, os painéis e os obstáculos em 3D.
+- Na vista 3D dá para ajustar a **inclinação** do telhado (0–60°), o **lado do beiral** (parte baixa) e a **altura do prédio**.
+- Arraste para girar; dois dedos ou a rodinha do mouse para zoom; Shift+arrastar ou três dedos para mover.
+- No modo polígono com imagem importada, a foto aparece sobre o telhado em 3D.
+- **Salvar imagem PNG** baixa a vista 3D atual.
+- Usa a biblioteca gratuita **three.js** (licença MIT, sem custo), guardada no próprio app em `vendor/three.min.js`, então funciona offline. Arquivo novo: `view3d.js`.
+- Limites: um telhado de uma só água (sem cumeeira de duas águas); inclinação e altura digitadas à mão; as medidas do desenho 2D são tratadas como medidas sobre a superfície do telhado. É uma imagem ilustrativa, não um projeto de engenharia.
+
 ## Versão 11 (14/10/2026): medição com vários pontos
 
 - **📏 Misura / Medir** agora aceita vários pontos: toque em A, B, C, D… Cada trecho mostra o comprimento e os pontos ganham letras.
