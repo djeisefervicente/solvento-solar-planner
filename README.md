@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 17 (14/10/2026): escala primeiro
+
+- Com imagem importada e ainda **sem escala**, o botão **① Scala** fica vermelho piscando com ⚠.
+- Ao clicar em **📏 Medir** ou **② Desenhar** sem escala, o app pergunta se quer fazer a escala antes (OK = fazer agora). Depois da escala, volta direto para o Medir.
+- A escala também pode ser feita **arrastando** de uma ponta à outra da distância conhecida (não só tocando as duas pontas).
+- Se no ③ a forma der pequena demais por falta de escala, o app explica e oferece fazer a escala.
+
 ## Versão 16 (14/10/2026): ③ funciona mesmo com linhas separadas
 
 - Correção: se a forma era traçada com linhas separadas (sem começar exatamente no fim da linha anterior) ou sem voltar exatamente ao ponto A, o ③ não colocava painéis.
