@@ -135,6 +135,11 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 15 (14/10/2026): painéis dentro da medição
+
+- Depois de fechar uma forma com **📏 Medir**, clique em **③ Adicionar painéis** (ou **Distribuir painéis**): o app preenche essa forma com o modelo de painel escolhido, sem precisar de outro botão.
+- A quantidade de painéis e a potência (kWp) aparecem numa etiqueta verde no canto do desenho, além dos números embaixo.
+
 ## Versão 14 (14/10/2026): medir clicando e arrastando
 
 - **📏 Medir**: cada linha é feita pressionando no ponto A, arrastando e soltando no ponto B. Ao soltar, a linha para (não fica seguindo o mouse).
