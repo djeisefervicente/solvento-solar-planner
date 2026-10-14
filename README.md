@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 16 (14/10/2026): ③ funciona mesmo com linhas separadas
+
+- Correção: se a forma era traçada com linhas separadas (sem começar exatamente no fim da linha anterior) ou sem voltar exatamente ao ponto A, o ③ não colocava painéis.
+- Agora, ao começar ou terminar uma linha perto da ponta de outra, elas se juntam sozinhas; terminar perto do A fecha a forma.
+- Ao clicar em ③, se a forma não estiver fechada, o app junta as linhas medidas e fecha a forma automaticamente antes de colocar os painéis.
+- Se não houver forma ou se nenhum painel couber, aparece uma mensagem explicando o motivo (escala, medida do painel ou distância da borda).
+
 ## Versão 15 (14/10/2026): painéis dentro da medição
 
 - Depois de fechar uma forma com **📏 Medir**, clique em **③ Adicionar painéis** (ou **Distribuir painéis**): o app preenche essa forma com o modelo de painel escolhido, sem precisar de outro botão.
