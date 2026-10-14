@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 21 (14/10/2026): conferência da escala
+
+- Durante a escala ①, a linha mostra **"? m"** em vez de um número provisório, para não confundir.
+- A pergunta agora diz claramente: digite quantos metros a linha mede **de verdade** (medida no local ou no Google Maps).
+- Se você digitar quase o mesmo número provisório do app, ou se a imagem inteira ficar com menos de 6 m (ou mais de 3 km) de largura, o app avisa e deixa refazer.
+- No ③, se nenhum painel couber, o app mostra o tamanho da forma (ex.: 1,9 × 1,3 m) e oferece refazer a escala.
+
 ## Versão 20 (14/10/2026): a linha para quando você solta
 
 - Correção: depois de soltar o botão do mouse, uma linha continuava seguindo o mouse (no Medir, na escala ① e no desenho ②). Agora a linha só aparece enquanto o botão (ou o dedo) está apertado, em todas as ferramentas.
