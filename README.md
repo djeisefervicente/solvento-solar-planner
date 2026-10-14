@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 14 (14/10/2026): medir clicando e arrastando
+
+- **📏 Medir**: cada linha é feita pressionando no ponto A, arrastando e soltando no ponto B. Ao soltar, a linha para (não fica seguindo o mouse).
+- Para continuar do mesmo ponto, pressione em cima do último ponto e arraste. Pressionando em outro lugar começa uma linha nova (as medidas anteriores continuam no desenho).
+- Para fechar a forma, arraste até o ponto A: aparecem m², comprimento × largura e perímetro.
+- Um clique sem arrastar não cria ponto.
+- Clique de novo em 📏 para desligar o Medir; sem ferramenta ligada, arrastar move a imagem.
+
 ## Versão 13 (14/10/2026): medir arrastando o dedo
 
 - Correção: no modo **📏 Medir**, arrastar o dedo ou o mouse era ignorado. Agora dá para **arrastar** de A até B (a linha segue o dedo e mostra a medida) ou **tocar** ponto por ponto, misturando os dois.
