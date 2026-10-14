@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 20 (14/10/2026): a linha para quando você solta
+
+- Correção: depois de soltar o botão do mouse, uma linha continuava seguindo o mouse (no Medir, na escala ① e no desenho ②). Agora a linha só aparece enquanto o botão (ou o dedo) está apertado, em todas as ferramentas.
+- Se o "soltar" se perder (por exemplo, soltando fora do desenho ou depois de uma janela de pergunta), o app encerra a linha sozinho.
+- No ② Desenhar também dá para pressionar, arrastar e soltar.
+- O número da versão aparece embaixo do título (ex.: "versão 20"), para conferir se o aparelho já pegou a versão nova.
+
 ## Versão 19 (14/10/2026): apagar só um pedaço
 
 - Botão **✂ Apagar um pedaço**: com ele ligado, toque numa linha de medição, num painel, num obstáculo ou num ponto do contorno, e só aquilo é apagado. Arrastar continua movendo a imagem.
