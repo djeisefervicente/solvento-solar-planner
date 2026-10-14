@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 10 (14/10/2026): botões de zoom
+
+- Três botões no canto superior direito do desenho: **+** (aproximar), **−** (afastar) e **⤢** (ajustar a vista para ver o telhado inteiro).
+- O zoom agora funciona também no modo **Retângulo** (antes só no polígono): botões, roda do mouse, pinça com dois dedos e arrastar uma área vazia para mover a vista.
+- Ao exportar PNG ou imprimir/PDF, o desenho sai sempre inteiro, mesmo se a tela estiver com zoom.
+- Teste: clique 3 vezes em **+**, toque num painel (ele deve ser selecionado), depois clique em **⤢**.
+
 ## Versão 9 (14/10/2026): visual novo e mais fácil
 
 - Visual renovado: logotipo, cores mais suaves, botões maiores para o dedo, cartões arredondados, potência (kWp) em destaque, avisos em caixas coloridas.
