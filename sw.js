@@ -1,6 +1,6 @@
 // Service worker do Solvento Solar Planner: guarda o app no aparelho para abrir sem internet.
 // Ao publicar uma versão nova, aumente CACHE para que os aparelhos baixem os arquivos atualizados.
-const CACHE = 'solvento-v7';
+const CACHE = 'solvento-v8';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {

@@ -92,7 +92,7 @@ Limitações atuais: a grade de módulos segue os eixos da tela (não gira para 
 
 O Android só instala o app a partir de um endereço `https://`. Abrir o `index.html` pelo gerenciador de arquivos funciona, mas não instala nem ativa o modo offline do navegador. Uma opção gratuita é publicar a pasta no GitHub Pages (ou Netlify). Isso torna os arquivos do app públicos; os projetos continuam salvos só no aparelho.
 
-**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v7` → `solvento-v8`) para os aparelhos baixarem a atualização.
+**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v8` → `solvento-v9`) para os aparelhos baixarem a atualização.
 
 ### Limitações que continuam
 
@@ -123,6 +123,17 @@ O Android só instala o app a partir de um endereço `https://`. Abrir o `index.
 - Ao **importar uma imagem**, ela aparece limpa e na proporção certa (modo polígono), sem painéis por cima.
 - Os painéis só aparecem quando você clica em **“Distribuir painéis”** (o app não distribui mais sozinho ao abrir ou ao criar projeto novo).
 - Ordem sugerida: importar imagem → “Calibrar escala” → “Traçar novo contorno” → “Distribuir painéis”. Se importar por engano, “↶ Desfazer” volta ao estado anterior.
+
+## Versão 8 (14/10/2026): medir na foto em 3 passos
+
+No modo polígono aparece uma barra com 3 botões:
+1. **① Escala: medida conhecida**: toque nas duas pontas de algo cuja medida real você sabe (um lado medido no local, ou medido no Google Maps com “Medir distância”) e digite os metros. Sem foto, o botão pede a medida real de um lado já desenhado.
+2. **② Desenhar o telhado**: toque nos cantos do telhado (mouse ou dedo). Cada lado mostra a medida; com o mouse, a medida aparece enquanto você move.
+3. **③ Adicionar painéis**: calcula a área do desenho e enche de painéis conforme o tamanho e a potência do modelo escolhido, mostrando quantidade e kWp.
+
+Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **Definir medida de um lado** (toque num lado e digite o comprimento real; tudo é reescalado).
+
+Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
 ## O que só dá para fazer no seu computador/celular
 
