@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 25 (14/10/2026): painéis em pé ou deitados
+
+- Dois botões acima do desenho: **▯ Em pé** (vertical) e **▭ Deitados** (horizontal). Ao clicar, todos os painéis são redistribuídos nessa posição.
+- A mensagem mostra quantos painéis cabem na posição escolhida e quantos caberiam na outra, para comparar (ex.: deitados 64, em pé 63).
+- É a mesma opção "Orientação" do Modelo de painel, agora mais fácil de achar.
+
 ## Versão 24 (14/10/2026): painéis seguem a linha do telhado
 
 - Ao clicar em **③**, a grade de painéis é alinhada automaticamente ao **lado mais comprido** do contorno traçado, então os painéis ficam retos em relação ao telhado (não mais em diagonal).
