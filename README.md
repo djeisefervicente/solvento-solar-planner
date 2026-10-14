@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 13 (14/10/2026): medir arrastando o dedo
+
+- Correção: no modo **📏 Medir**, arrastar o dedo ou o mouse era ignorado. Agora dá para **arrastar** de A até B (a linha segue o dedo e mostra a medida) ou **tocar** ponto por ponto, misturando os dois.
+- Quando o modo Medir está ligado aparece a etiqueta azul **📏 MEDIR LIGADO** no canto do desenho e o cursor vira uma cruz.
+- Os botões Fechar medição e Usar como contorno ficam sempre no lugar (cinza até poder usar), para o desenho não pular enquanto você mede.
+- Quando sai uma versão nova do site, o app recarrega sozinho uma vez para usar a versão nova.
+
 ## Versão 12 (14/10/2026): vista 3D
 
 - Botão **🧊 Vista 3D** acima do desenho: mostra o prédio, o telhado inclinado, os painéis e os obstáculos em 3D.
