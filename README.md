@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 23 (14/10/2026): mostrar onde está o problema
+
+- Correção: ao trocar a forma do telhado (ex.: de Polígono para Retângulo), os painéis antigos ficavam e todos apareciam como "com problema" (ex.: 502 painéis num telhado de 200 m²). Agora o app redistribui os painéis para a forma nova. Projetos salvos com esse problema abrem limpos.
+- Painéis com problema ficam **vermelhos com ⚠ e borda amarela**.
+- No aviso vermelho embaixo do desenho há dois botões: **🔍 Mostrar onde** (move e aproxima o desenho até os painéis com problema) e **↻ Redistribuir painéis**.
+
 ## Versão 22 (14/10/2026): escala de exemplo para teste
 
 - Botão **🧪 Escala de exemplo**: para fotos da internet sem nenhuma medida real. O app pergunta mais ou menos quantos metros de largura tem a imagem inteira (sugere 40 m) e usa isso como escala.
