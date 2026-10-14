@@ -135,6 +135,10 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 26
+- Os botões de medição (① ② ③, 📏 Misura, 🧪 Scala di esempio, Altri strumenti) agora aparecem sempre, também quando a forma do telhado está em “Rettangolo”. Ao clicar num deles, o app muda sozinho para “Poligono irregolare”.
+- Verificação antes de publicar: `node tests/check-buttons.js http://localhost:8766/` confere se todos os botões principais estão visíveis no computador e no celular, nos dois modos.
+
 ## Versão 25 (14/10/2026): painéis em pé ou deitados
 
 - Dois botões acima do desenho: **▯ Em pé** (vertical) e **▭ Deitados** (horizontal). Ao clicar, todos os painéis são redistribuídos nessa posição.
