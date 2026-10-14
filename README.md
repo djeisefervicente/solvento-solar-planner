@@ -92,7 +92,7 @@ Limitações atuais: a grade de módulos segue os eixos da tela (não gira para 
 
 O Android só instala o app a partir de um endereço `https://`. Abrir o `index.html` pelo gerenciador de arquivos funciona, mas não instala nem ativa o modo offline do navegador. Uma opção gratuita é publicar a pasta no GitHub Pages (ou Netlify). Isso torna os arquivos do app públicos; os projetos continuam salvos só no aparelho.
 
-**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v8` → `solvento-v9`) para os aparelhos baixarem a atualização.
+**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v9` → `solvento-v10`) para os aparelhos baixarem a atualização.
 
 ### Limitações que continuam
 
@@ -134,6 +134,14 @@ No modo polígono aparece uma barra com 3 botões:
 Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **Definir medida de um lado** (toque num lado e digite o comprimento real; tudo é reescalado).
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
+
+## Versão 9 (14/10/2026): visual novo e mais fácil
+
+- Visual renovado: logotipo, cores mais suaves, botões maiores para o dedo, cartões arredondados, potência (kWp) em destaque, avisos em caixas coloridas.
+- Barra de ferramentas mais limpa: ferramentas raras ficam em **“Mais ferramentas”**; botões sem uso no momento ficam apagados (ex.: “Excluir ponto” só acende com um ponto selecionado). Botões de apagar em vermelho.
+- Seções da lateral abrem e fecham (Notas começa fechada).
+- No celular, os 3 passos ficam numa linha só, e o desenho aparece mais alto na tela.
+- Mais leve ao arrastar: desenha no máximo uma vez por quadro e só grava ao soltar.
 
 ## O que só dá para fazer no seu computador/celular
 
