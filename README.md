@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 22 (14/10/2026): escala de exemplo para teste
+
+- Botão **🧪 Escala de exemplo**: para fotos da internet sem nenhuma medida real. O app pergunta mais ou menos quantos metros de largura tem a imagem inteira (sugere 40 m) e usa isso como escala.
+- Também é oferecido quando você clica em 📏 Medir/② sem escala e responde que não tem medida real.
+- Fica sempre marcado como **ESCALA DE EXEMPLO (números não reais)** no desenho, nos resultados e no relatório. Para um projeto de verdade, use ① com uma medida real.
+
 ## Versão 21 (14/10/2026): conferência da escala
 
 - Durante a escala ①, a linha mostra **"? m"** em vez de um número provisório, para não confundir.
