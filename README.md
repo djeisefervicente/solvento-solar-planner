@@ -92,7 +92,7 @@ Limitações atuais: a grade de módulos segue os eixos da tela (não gira para 
 
 O Android só instala o app a partir de um endereço `https://`. Abrir o `index.html` pelo gerenciador de arquivos funciona, mas não instala nem ativa o modo offline do navegador. Uma opção gratuita é publicar a pasta no GitHub Pages (ou Netlify). Isso torna os arquivos do app públicos; os projetos continuam salvos só no aparelho.
 
-**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v6` → `solvento-v7`) para os aparelhos baixarem a atualização.
+**Ao publicar uma versão nova**, aumente o nome do cache em `sw.js` (hoje `solvento-v7` → `solvento-v8`) para os aparelhos baixarem a atualização.
 
 ### Limitações que continuam
 
@@ -117,6 +117,12 @@ O Android só instala o app a partir de um endereço `https://`. Abrir o `index.
 - **Zoom no modo polígono**: dois dedos (pinça) ou roda do mouse; com a ferramenta “Painéis”, arraste uma área vazia para mover a vista. “Ajustar vista” volta ao enquadramento.
 - No traçado e na calibração, o ponto entra ao **soltar o dedo**, para o zoom com dois dedos não criar pontos por engano.
 - **Distribuição otimizada**: testa 64 deslocamentos da grade e fica com o que cabe mais módulos (ex.: com obstáculo, 52 → 57; telhado inclinado sem alinhar, 53 → 57). Em telhado retangular simples o resultado não muda (20 × 10 m = 63).
+
+## Versão 7 (14/10/2026): primeiro ver o telhado
+
+- Ao **importar uma imagem**, ela aparece limpa e na proporção certa (modo polígono), sem painéis por cima.
+- Os painéis só aparecem quando você clica em **“Distribuir painéis”** (o app não distribui mais sozinho ao abrir ou ao criar projeto novo).
+- Ordem sugerida: importar imagem → “Calibrar escala” → “Traçar novo contorno” → “Distribuir painéis”. Se importar por engano, “↶ Desfazer” volta ao estado anterior.
 
 ## O que só dá para fazer no seu computador/celular
 
