@@ -135,6 +135,10 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 18 (14/10/2026): limpar tudo
+
+- Botão **🧹 Limpar tudo** acima do desenho: apaga de uma vez medições, contorno, painéis e obstáculos. Fica só a imagem do telhado (e a escala, se já foi feita). Pede confirmação e dá para desfazer com ↶.
+
 ## Versão 17 (14/10/2026): escala primeiro
 
 - Com imagem importada e ainda **sem escala**, o botão **① Scala** fica vermelho piscando com ⚠.
