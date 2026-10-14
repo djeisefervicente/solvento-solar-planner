@@ -135,6 +135,11 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 19 (14/10/2026): apagar só um pedaço
+
+- Botão **✂ Apagar um pedaço**: com ele ligado, toque numa linha de medição, num painel, num obstáculo ou num ponto do contorno, e só aquilo é apagado. Arrastar continua movendo a imagem.
+- Clique de novo no botão para sair. Painéis, obstáculos e pontos do contorno voltam com ↶ Desfazer.
+
 ## Versão 18 (14/10/2026): limpar tudo
 
 - Botão **🧹 Limpar tudo** acima do desenho: apaga de uma vez medições, contorno, painéis e obstáculos. Fica só a imagem do telhado (e a escala, se já foi feita). Pede confirmação e dá para desfazer com ↶.
