@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 24 (14/10/2026): painéis seguem a linha do telhado
+
+- Ao clicar em **③**, a grade de painéis é alinhada automaticamente ao **lado mais comprido** do contorno traçado, então os painéis ficam retos em relação ao telhado (não mais em diagonal).
+- Para alinhar a outro lado: **Mais ferramentas → Alinhar a um lado** e toque no lado desejado (essa escolha é mantida até você traçar um contorno novo).
+- Em fotos tiradas de lado (em perspectiva) os lados do telhado não são paralelos; o melhor resultado é com foto vista de cima.
+
 ## Versão 23 (14/10/2026): mostrar onde está o problema
 
 - Correção: ao trocar a forma do telhado (ex.: de Polígono para Retângulo), os painéis antigos ficavam e todos apareciam como "com problema" (ex.: 502 painéis num telhado de 200 m²). Agora o app redistribui os painéis para a forma nova. Projetos salvos com esse problema abrem limpos.
