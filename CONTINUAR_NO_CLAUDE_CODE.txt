@@ -1,0 +1,12 @@
+COMO CONTINUAR NO CLAUDE CODE
+
+1. Baixe e extraia o arquivo ZIP desta pasta.
+2. Abra o Claude Code na pasta extraída: solvento_solar_planner.
+3. Envie esta mensagem:
+
+"Leia primeiro CLAUDE.md, README.md e SPEC.md. Audite o index.html existente sem reescrever tudo. Diga o que funciona, o que falta e proponha os próximos três passos. Depois vamos implementar o editor de telhados irregulares com calibração de escala, preservando as funções que já funcionam. Explique tudo em português brasileiro e faça alterações pequenas e testáveis."
+
+4. Para testar a versão atual, abra index.html em um navegador moderno.
+
+OBSERVAÇÃO
+O protótipo é um HTML independente. A primeira versão antiga estava vazia; a versão válida incluída aqui é a versão 2, copiada para index.html.
