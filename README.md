@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 34 (15/10/2026): painéis com aparência real
+
+- Os painéis agora parecem painéis de verdade: moldura prateada e células escuras (6 × 10), desenhadas pelo próprio app, sem imagens de terceiros, e funcionam offline.
+- Na foto inclinada, as células seguem a perspectiva do telhado.
+- Painel com problema continua vermelho (com ⚠ e contorno amarelo) e o selecionado continua amarelo.
+
 ## Versão 33 (15/10/2026): Em pé / Deitados giram também os painéis adicionados à mão
 - Corrigido: os painéis colocados com ➕ sumiam quando se clicava em Em pé/Deitados. Agora eles ficam no mesmo lugar e giram junto com os outros.
 - Se a grade automática encostar num painel colocado à mão, o painel da grade é retirado, para não ficar um em cima do outro.

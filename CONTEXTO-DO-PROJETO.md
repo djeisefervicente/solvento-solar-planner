@@ -1,6 +1,6 @@
 # Contexto do projeto — Solvento Solar Planner
 
-Atualizado em 15/10/2026, na versão 33. Este arquivo serve para continuar o trabalho amanhã (ou com outro Claude) sem perder nada.
+Atualizado em 15/10/2026, na versão 34. Este arquivo serve para continuar o trabalho amanhã (ou com outro Claude) sem perder nada.
 
 ## O que é
 - Aplicativo web offline (PWA) para planejar painéis fotovoltaicos em telhados, para instalações na Itália.
@@ -13,13 +13,13 @@ Atualizado em 15/10/2026, na versão 33. Este arquivo serve para continuar o tra
 - **Repositório:** github.com/djeisefervicente/solvento-solar-planner (branch `main`).
 - **Pasta do projeto:** /mnt/project-files
   - Cópia de trabalho: `index.html`, `sw.js`, `view3d.js`, `vendor/`, `icons/`.
-  - `entregas/`: um zip por versão (o mais novo é `solvento_solar_planner_v33.zip`) e imagens de exemplo.
+  - `entregas/`: um zip por versão (o mais novo é `solvento_solar_planner_v34.zip`) e imagens de exemplo.
   - `versoes/`: o `index.html` de cada versão (v10 a v26).
   - `kit-criar-apps/`: kit para criar outros apps (projeto separado, para o futuro).
 - **Arquivos principais:**
   - `index.html`: o app inteiro (HTML, CSS e JavaScript juntos).
   - `view3d.js` + `vendor/three.min.js`: a vista 3D. A biblioteca three.js tem licença MIT e é gratuita.
-  - `sw.js`: funcionamento offline. O nome do cache acompanha a versão (`solvento-v33`).
+  - `sw.js`: funcionamento offline. O nome do cache acompanha a versão (`solvento-v34`).
   - `README.md`: histórico detalhado de cada versão.
   - `SPEC.md` e `CLAUDE.md`: regras do projeto.
   - `tests/check-buttons.js`: verificação dos botões.
@@ -34,7 +34,7 @@ Atualizado em 15/10/2026, na versão 33. Este arquivo serve para continuar o tra
 7. Publicar no GitHub Pages está autorizado.
 8. O usuário prefere trabalhar no chat do projeto. Avisar quando algo precisar do computador dele.
 
-## O que o app faz hoje (versão 33)
+## O que o app faz hoje (versão 34)
 
 **Barra de cima**
 - Distribuisci pannelli.
@@ -123,6 +123,7 @@ Atualizado em 15/10/2026, na versão 33. Este arquivo serve para continuar o tra
 | v31 | Botões ➕ Adicionar em pé / deitado: colocar painel à mão onde tocar |
 | v32 | Troca Em pé/Deitados sem estados intermediários no desfazer; novo botão ↷ Refazer |
 | v33 | Em pé/Deitados também giram os painéis ➕ adicionados à mão; atualização do app mais confiável |
+| v34 | Painéis com aparência real: moldura prateada e células escuras, seguindo a perspectiva |
 
 ## Limitações conhecidas
 - A vista 3D só faz telhado de uma água (sem cumeeira e sem duas águas).
