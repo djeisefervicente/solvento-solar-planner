@@ -2,7 +2,7 @@
 // no computador e no celular, também com o telhado em modo "Rettangolo".
 // Uso: node tests/check-buttons.js http://localhost:8766/
 const {chromium}=require('playwright');
-const EXPECTED=['step1Btn','step2Btn','step3Btn','rulerBtn','exampleScaleBtn','eraseBtn','clearAllBtn','undoBtn','view3dBtn','orientPBtn','orientLBtn','perspBtn','wantN','addPBtn','addLBtn','zoomInBtn','zoomOutBtn','zoomFitBtn','toolPanelsBtn','toolObsBtn','autoBtn','pngBtn','pdfBtn'];
+const EXPECTED=['step1Btn','step2Btn','step3Btn','rulerBtn','exampleScaleBtn','eraseBtn','clearAllBtn','undoBtn','view3dBtn','orientPBtn','orientLBtn','perspBtn','wantN','addPBtn','addLBtn','redoBtn','zoomInBtn','zoomOutBtn','zoomFitBtn','toolPanelsBtn','toolObsBtn','autoBtn','pngBtn','pdfBtn'];
 (async()=>{const b=await chromium.launch();let fail=0;
 for(const [w,h] of [[1366,800],[412,900]])for(const mode of ['rect','poly']){
  const p=await b.newPage({viewport:{width:w,height:h}});const errs=[];p.on('pageerror',e=>errs.push(e.message));

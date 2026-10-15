@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 32 (15/10/2026): Em pé / Deitados e desfazer sem tropeços
+- Corrigido: ao trocar entre Em pé e Deitados, o "↶ Desfazer" passava por estados intermediários (por exemplo, todos os painéis em vez dos 10 pedidos) e parecia que a troca não voltava. Agora cada clique é um único passo.
+- O desfazer também guarda a posição (em pé/deitado) e a quantidade pedida.
+- Novo botão **↷ Refazer**, ao lado de ↶ Desfazer, para ir para frente de novo. No computador também funciona com Ctrl+Y.
+- Testado trocando Em pé → Deitados → Em pé várias vezes, com desfazer e refazer no meio, no computador e no celular.
+
 ## Versão 31 (15/10/2026): adicionar um painel à mão
 - Dois botões novos acima do desenho: **➕ ▯ Adicionar em pé** e **➕ ▭ Adicionar deitado**.
 - Como usar: clique em um deles e toque no desenho onde você quer o painel, que é uma exceção do projeto. Dá para tocar várias vezes. Para sair, clique de novo no botão.
