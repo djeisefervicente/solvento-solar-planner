@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 36 (15/10/2026): editar cada área de novo
+
+- Toque numa área fixa (ou num painel dela): ela vira a **área ativa**, com a etiqueta laranja "✎ ÁREA ATIVA".
+- Na área ativa você pode mover, girar, excluir e adicionar painéis, usar Em pé / Deitados e o campo "quantos painéis".
+- A área que estava ativa fica fixa, com a etiqueta "🔒 N · toque para editar". Os totais continuam somando todas as áreas.
+- Áreas criadas na versão 35 não guardavam os dados para edição: apague com ✂ e desenhe de novo.
+
 ## Versão 35 (15/10/2026): várias áreas no mesmo telhado
 
 - Quando você desenha uma nova forma (📏 Misura ou ②) e aperta ③, os painéis da forma anterior **ficam fixos** na foto, com contorno tracejado.
