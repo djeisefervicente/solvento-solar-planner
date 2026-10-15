@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 35 (15/10/2026): várias áreas no mesmo telhado
+
+- Quando você desenha uma nova forma (📏 Misura ou ②) e aperta ③, os painéis da forma anterior **ficam fixos** na foto, com contorno tracejado.
+- A contagem, os kWp, a área e o relatório PDF somam todas as áreas.
+- Os painéis novos não ficam em cima dos painéis fixos.
+- ✂ Apagar um pedaço remove um painel fixo; 🧹 Limpar tudo e ↶ Desfazer também funcionam com as áreas.
+- As áreas são salvas no projeto e no backup. Mudar a escala (①) apaga as áreas, como já acontecia com os painéis.
+
 ## Versão 34 (15/10/2026): painéis com aparência real
 
 - Os painéis agora parecem painéis de verdade: moldura prateada e células escuras (6 × 10), desenhadas pelo próprio app, sem imagens de terceiros, e funcionam offline.
