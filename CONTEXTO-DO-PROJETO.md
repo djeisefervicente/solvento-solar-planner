@@ -14,7 +14,7 @@ Atualizado em 15/10/2026, na versão 36. Este arquivo serve para continuar o tra
 - **Pasta do projeto:** /mnt/project-files
   - Cópia de trabalho: `index.html`, `sw.js`, `view3d.js`, `vendor/`, `icons/`.
   - `entregas/`: um zip por versão (o mais novo é `solvento_solar_planner_v36.zip`) e imagens de exemplo.
-  - `versoes/`: o `index.html` de cada versão (v10 a v26).
+  - `versoes/`: o `index.html` de cada versão (v10 a v36).
   - `kit-criar-apps/`: kit para criar outros apps (projeto separado, para o futuro).
 - **Arquivos principais:**
   - `index.html`: o app inteiro (HTML, CSS e JavaScript juntos).
@@ -134,8 +134,16 @@ Atualizado em 15/10/2026, na versão 36. Este arquivo serve para continuar o tra
 - Ainda não foi testado em um celular Android real (instalação, offline e toque).
 
 ## Próximos passos
-- O usuário disse em 14/10 que **ainda há correções a fazer**. Perguntar quais são, no começo da próxima conversa.
+- Em 15/10 o usuário aprovou as versões 34 a 36 e parou por hoje. Perguntar, no começo da próxima conversa, o que ele achou do teste no celular.
+- Ideias ainda não escolhidas: telhado de duas águas, estimativa de kWh/ano, lista de material, foto pela câmera, compartilhar o PDF.
 - Teste no celular Android real e correção do que aparecer.
+
+## Teste no celular (protótipo para mostrar a clientes)
+- Link: https://djeisefervicente.github.io/solvento-solar-planner/
+- QR code do link: `entregas/qr-solvento-celular.png`.
+- Verificado em 15/10 (v36, celular Android simulado): o Chrome aceita instalar como app, sem erros no manifesto, e o app abre sem internet, inclusive a vista 3D.
+- Instalar: abrir o link no Chrome do celular, menu ⋮ → "Instalar app" (ou "Adicionar à tela inicial").
+- Os projetos ficam salvos só naquele aparelho. Para levar de um aparelho para outro, use Exportar/Importar backup.
 
 ## Como publicar uma nova versão (para o Claude)
 1. Alterar `index.html` no repositório. Subir a versão em `sw.js` (`solvento-vN`) e em `appVersion` (it e pt) no `index.html`.
