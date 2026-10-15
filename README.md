@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 30 (15/10/2026): quantos painéis você quer + excluir tocando no painel
+- Novo campo **"Quantos painéis você quer?"** acima do desenho, ao lado de Em pé/Deitados.
+  - Escreva, por exemplo, 10. O app coloca até 10 painéis num bloco compacto dentro do telhado, seguindo a perspectiva e a medida do painel.
+  - Se não couberem todos, aparece o aviso: "Você pediu 10 painéis, mas só cabem 5. 5 painéis ficam de fora: coloque-os em outra parte do telhado ou em outro telhado."
+  - Deixe o campo vazio para colocar todos os que cabem.
+- Tocar num painel mostra um balão ao lado dele com **🗑 Excluir este painel**, ↻ (girar) e ✕ (fechar). Dá para excluir um painel ou vários, um de cada vez.
+- Os botões "Rimuovi selezionato", "Ruota selezionato" e ✂ continuam no mesmo lugar.
+
 ## Versão 29 (15/10/2026): perspectiva automática
 - Quando há uma foto com escala (real ou de exemplo) e o telhado tem 4 cantos (traçado com ② ou com 📏 Medir), o ③ já coloca os painéis em perspectiva sobre a foto, sem precisar clicar em 📐.
 - As medidas usadas nesse caso são ESTIMADAS pela foto, e a mensagem avisa isso. Para usar as medidas reais, clique em 📐 Prospettiva e escreva os lados A→B e B→C. Para voltar à vista plana, clique em 📐 e cancele.
