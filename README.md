@@ -135,6 +135,17 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 28 (15/10/2026): painéis em perspectiva na foto
+- Novo botão **📐 Prospettiva / Perspectiva** (ao lado de 🧪 Escala de exemplo). Serve para fotos tiradas de lado (drone, inclinadas).
+- Como usar:
+  1. Marque os 4 cantos do telhado em ordem, com ② ou com 📏 Medir (4 lados fechados).
+  2. Clique em 📐. Aparecem as letras A, B, C e D nos cantos.
+  3. Escreva quanto medem de verdade o lado A→B e o lado B→C.
+- Os painéis aparecem já em cima do telhado, seguindo a perspectiva da foto: menores no fundo, maiores na frente.
+- A contagem, os kWp, a área (A→B × B→C), os obstáculos, o desfazer, o salvar, o relatório e a vista 3D usam as medidas reais.
+- Clicar de novo em 📐 volta para a vista plana.
+- Limite: considera o telhado como um retângulo plano. As medidas são as que você escreve; confira no local.
+
 ## Versão 27 (15/10/2026): revisão completa e pequenas correções
 - Testados todos os botões no computador e no celular, em italiano e português, sem erros.
 - Testados também: salvar e abrir projetos, backup, PNG, PDF, vista 3D e uso offline.
