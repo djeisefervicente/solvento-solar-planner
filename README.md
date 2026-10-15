@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 29 (15/10/2026): perspectiva automática
+- Quando há uma foto com escala (real ou de exemplo) e o telhado tem 4 cantos (traçado com ② ou com 📏 Medir), o ③ já coloca os painéis em perspectiva sobre a foto, sem precisar clicar em 📐.
+- As medidas usadas nesse caso são ESTIMADAS pela foto, e a mensagem avisa isso. Para usar as medidas reais, clique em 📐 Prospettiva e escreva os lados A→B e B→C. Para voltar à vista plana, clique em 📐 e cancele.
+- Se algum painel sair do telhado, ele é retirado e aparece o aviso "⚠ N painéis saíam do telhado e foram retirados".
+- Corrigido: trocar para "Rettangolo" depois da perspectiva deixava o telhado sem painéis.
+
 ## Versão 28 (15/10/2026): painéis em perspectiva na foto
 - Novo botão **📐 Prospettiva / Perspectiva** (ao lado de 🧪 Escala de exemplo). Serve para fotos tiradas de lado (drone, inclinadas).
 - Como usar:
