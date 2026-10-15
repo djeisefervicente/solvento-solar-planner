@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 31 (15/10/2026): adicionar um painel à mão
+- Dois botões novos acima do desenho: **➕ ▯ Adicionar em pé** e **➕ ▭ Adicionar deitado**.
+- Como usar: clique em um deles e toque no desenho onde você quer o painel, que é uma exceção do projeto. Dá para tocar várias vezes. Para sair, clique de novo no botão.
+- O painel novo segue a perspectiva da foto e entra na contagem e nos kWp. Se ficar fora do telhado ou em cima de outro, ele aparece em vermelho com um aviso.
+- Depois, com a ferramenta "Painéis", dá para arrastar o painel ou tocar nele para excluir (🗑).
+
 ## Versão 30 (15/10/2026): quantos painéis você quer + excluir tocando no painel
 - Novo campo **"Quantos painéis você quer?"** acima do desenho, ao lado de Em pé/Deitados.
   - Escreva, por exemplo, 10. O app coloca até 10 painéis num bloco compacto dentro do telhado, seguindo a perspectiva e a medida do painel.
