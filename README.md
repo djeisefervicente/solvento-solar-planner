@@ -135,6 +135,15 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 27 (15/10/2026): revisão completa e pequenas correções
+- Testados todos os botões no computador e no celular, em italiano e português, sem erros.
+- Testados também: salvar e abrir projetos, backup, PNG, PDF, vista 3D e uso offline.
+- Corrigido: importar de novo a MESMA imagem (por exemplo depois de “Novo projeto”) não fazia nada.
+- Corrigido: “Novo projeto” e “Apri” deixavam na tela as linhas de medição do projeto anterior. Agora começam limpos.
+- Corrigido: “Novo projeto” agora mostra uma mensagem de confirmação.
+- Corrigido: depois de “Salvar modelo”, o modelo salvo já fica selecionado, então “Atualizar” e “Excluir” funcionam na hora.
+- Corrigido: a data na lista de projetos usa o formato italiano/brasileiro (15/10/2026).
+
 ## Versão 26
 - Os botões de medição (① ② ③, 📏 Misura, 🧪 Scala di esempio, Altri strumenti) agora aparecem sempre, também quando a forma do telhado está em “Rettangolo”. Ao clicar num deles, o app muda sozinho para “Poligono irregolare”.
 - Verificação antes de publicar: `node tests/check-buttons.js http://localhost:8766/` confere se todos os botões principais estão visíveis no computador e no celular, nos dois modos.
