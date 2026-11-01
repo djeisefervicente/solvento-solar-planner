@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 41 (01/11/2026): copiar painel
+
+- Ao tocar num painel, além de 🗑 Excluir e ↻ Girar, aparece **⧉ Copiar**.
+- A cópia vai para o lugar livre mais próximo na mesma linha ou coluna (direita, esquerda, embaixo ou em cima). Se não houver espaço, ela fica em vermelho para você mover ou apagar.
+- ↶ Desfazer tira a cópia de uma vez.
+
 ## Versão 40 (01/11/2026): visual do painel
 
 - Em "Modelo do painel" há a escolha nova **Visual do painel**: moldura prateada (como antes), moldura preta ou todo preto (full black).
