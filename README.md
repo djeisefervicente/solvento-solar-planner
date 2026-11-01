@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 38 (01/11/2026): imagem antes e depois
+
+- Na tela de apresentação há o botão novo **◧ Antes e depois**.
+- Ele monta uma imagem só com a foto original ("ANTES") e a foto com os painéis ("DEPOIS"), com a faixa de dados embaixo.
+- Fotos largas ficam uma em cima da outra (melhor para ver no celular); fotos em pé ficam lado a lado.
+- **⬇ Baixar imagem** salva o arquivo `solvento-<cliente>-prima-dopo.jpg`. **▣ Só depois** volta para a imagem simples.
+
 ## Versão 37 (01/11/2026): apresentação para o cliente
 
 - Botão novo na barra de cima: **🖼 Apresentação ao cliente** (nenhum botão foi tirado).
