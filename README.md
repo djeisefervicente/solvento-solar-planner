@@ -135,6 +135,11 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 40 (01/11/2026): visual do painel
+
+- Em "Modelo do painel" há a escolha nova **Visual do painel**: moldura prateada (como antes), moldura preta ou todo preto (full black).
+- O visual muda o desenho no editor, na apresentação e na imagem antes e depois. É salvo no projeto; projetos antigos abrem com moldura prateada.
+
 ## Versão 39 (01/11/2026): nome do cliente
 
 - Campo novo **Cliente** em "Projeto", logo abaixo do nome do projeto.
