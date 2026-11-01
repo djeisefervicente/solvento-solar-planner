@@ -135,6 +135,12 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 39 (01/11/2026): nome do cliente
+
+- Campo novo **Cliente** em "Projeto", logo abaixo do nome do projeto.
+- O nome do cliente aparece na lista de projetos salvos, no relatório PDF, na imagem de apresentação e no nome do arquivo baixado.
+- Projetos antigos continuam abrindo normalmente (o campo fica vazio).
+
 ## Versão 38 (01/11/2026): imagem antes e depois
 
 - Na tela de apresentação há o botão novo **◧ Antes e depois**.
