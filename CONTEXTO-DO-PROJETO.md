@@ -1,6 +1,6 @@
 # Contexto do projeto — Solvento Solar Planner
 
-Atualizado em 15/10/2026, na versão 36. Este arquivo serve para continuar o trabalho amanhã (ou com outro Claude) sem perder nada.
+Atualizado em 01/11/2026, na versão 43. Este arquivo serve para continuar o trabalho amanhã (ou com outro Claude) sem perder nada.
 
 ## O que é
 - Aplicativo web offline (PWA) para planejar painéis fotovoltaicos em telhados, para instalações na Itália.
@@ -13,13 +13,13 @@ Atualizado em 15/10/2026, na versão 36. Este arquivo serve para continuar o tra
 - **Repositório:** github.com/djeisefervicente/solvento-solar-planner (branch `main`).
 - **Pasta do projeto:** /mnt/project-files
   - Cópia de trabalho: `index.html`, `sw.js`, `view3d.js`, `vendor/`, `icons/`.
-  - `entregas/`: um zip por versão (o mais novo é `solvento_solar_planner_v36.zip`) e imagens de exemplo.
-  - `versoes/`: o `index.html` de cada versão (v10 a v36).
+  - `entregas/`: um zip por versão (o mais novo é `solvento_solar_planner_v43.zip`) e imagens de exemplo.
+  - `versoes/`: o `index.html` de cada versão (v10 a v43).
   - `kit-criar-apps/`: kit para criar outros apps (projeto separado, para o futuro).
 - **Arquivos principais:**
   - `index.html`: o app inteiro (HTML, CSS e JavaScript juntos).
   - `view3d.js` + `vendor/three.min.js`: a vista 3D. A biblioteca three.js tem licença MIT e é gratuita.
-  - `sw.js`: funcionamento offline. O nome do cache acompanha a versão (`solvento-v36`).
+  - `sw.js`: funcionamento offline. O nome do cache acompanha a versão (`solvento-v43`).
   - `README.md`: histórico detalhado de cada versão.
   - `SPEC.md` e `CLAUDE.md`: regras do projeto.
   - `tests/check-buttons.js`: verificação dos botões.
@@ -126,6 +126,17 @@ Atualizado em 15/10/2026, na versão 36. Este arquivo serve para continuar o tra
 | v34 | Painéis com aparência real: moldura prateada e células escuras, seguindo a perspectiva |
 | v35 | Várias áreas no mesmo telhado: ao desenhar uma nova forma, os painéis anteriores ficam fixos e os totais somam |
 | v36 | Tocar numa área fixa a torna ativa e editável (mover, girar, adicionar, excluir, Em pé/Deitados) |
+| v37 | 🖼 Apresentação ao cliente: imagem limpa (foto + painéis + faixa com cliente/kWp) e download JPG |
+| v38 | ◧ Antes e depois na apresentação |
+| v39 | Campo Cliente no projeto (lista, PDF, imagem) |
+| v40 | Visual do painel: moldura prateada, preta ou todo preto |
+| v41 | ⧉ Copiar painel (no menu do painel) |
+| v42 | Faixa de passos 1 Foto › 2 Telhado › 3 Painéis › 4 Resultado |
+| v43 | Várias fotos no mesmo projeto, com total somado (também no PDF) |
+
+## Inspiração PV Vista (01/11/2026)
+- O usuário pediu o app "igual" ao pv-vista.com (site alemão, 15 €/mês: foto → cantos e medidas → painéis em perspectiva → imagem PNG). As versões 37 a 43 trouxeram as ideias dele, sem copiar nome, logo, textos ou imagens.
+- Análise completa: https://claude.ai/artifact/8HK6kZUzzFwVMyajQvpT9m
 
 ## Limitações conhecidas
 - A vista 3D só faz telhado de uma água (sem cumeeira e sem duas águas).
