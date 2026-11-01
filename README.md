@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 43 (01/11/2026): várias fotos no mesmo projeto
+
+- Acima da faixa de passos aparece **Fotos do projeto** com o botão **➕ Adicionar outra foto** (ex.: frente e fundos da casa).
+- Cada foto guarda a própria imagem, escala, contorno, perspectiva e painéis. Toque em "📷 Foto 1 · 24" para voltar a uma foto.
+- Com duas fotos ou mais aparece o **total do projeto** (painéis e kWp somados), que também vai para o relatório PDF.
+- **🗑 Excluir esta foto** só aparece quando há duas fotos ou mais e pede confirmação.
+- As fotos são salvas no projeto e no backup. Projetos antigos abrem normalmente, com uma foto só. Atenção: cada foto ocupa espaço no aparelho; se aparecer erro ao salvar, exporte um backup e apague projetos antigos.
+
 ## Versão 42 (01/11/2026): faixa de passos
 
 - Acima dos botões ①②③ há uma faixa nova: **1 Foto › 2 Telhado › 3 Painéis › 4 Resultado**.
