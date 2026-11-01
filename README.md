@@ -135,6 +135,14 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 37 (01/11/2026): apresentação para o cliente
+
+- Botão novo na barra de cima: **🖼 Apresentação ao cliente** (nenhum botão foi tirado).
+- Abre em tela cheia uma imagem limpa: só a foto do telhado com os painéis, sem linhas, medidas, etiquetas nem botões.
+- Embaixo da imagem aparece uma faixa com o nome do projeto, a quantidade de painéis, os kWp, o modelo, o endereço e a data, com o aviso "visualização indicativa".
+- **⬇ Baixar imagem** salva um arquivo JPG com o nome do cliente (ex.: `solvento-casa-rossi.jpg`), pronto para mandar no WhatsApp.
+- Ideia inspirada no fluxo de ferramentas de visualização para vendas; nome, textos e imagens são nossos.
+
 ## Versão 36 (15/10/2026): editar cada área de novo
 
 - Toque numa área fixa (ou num painel dela): ela vira a **área ativa**, com a etiqueta laranja "✎ ÁREA ATIVA".
