@@ -135,6 +135,13 @@ Ferramentas extras: **📏 Medir** (distância de A até B, sem mudar nada) e **
 
 Sem nenhuma medida real o app não tem como saber o tamanho do telhado: uma foto sozinha não traz escala.
 
+## Versão 42 (01/11/2026): faixa de passos
+
+- Acima dos botões ①②③ há uma faixa nova: **1 Foto › 2 Telhado › 3 Painéis › 4 Resultado**.
+- O passo atual fica em amarelo, os passos feitos ficam verdes, e embaixo aparece uma frase dizendo o que fazer agora.
+- Tocar num passo leva direto a ele: 1 abre a escolha da foto, 2 começa o desenho do telhado, 3 distribui os painéis, 4 abre a apresentação para o cliente.
+- Todos os botões e ferramentas que já existiam continuam no mesmo lugar.
+
 ## Versão 41 (01/11/2026): copiar painel
 
 - Ao tocar num painel, além de 🗑 Excluir e ↻ Girar, aparece **⧉ Copiar**.
